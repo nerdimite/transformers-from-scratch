@@ -1,2 +1,2 @@
-# transformers-from-scratch
-Transformers Implementation in PyTorch from Scratch
+# Transformers From Scratch
+Transformers have disrupted the field of Deep Learning in both NLP and Vision. It has become a general computation neural network which can be applied almost anywhere. While applying them to any use case has become easier than ever with libraries like Hugging Face Transformers, I wanted to dig deeper and understand all the nitty gritties of how they work. This repository is my workspace to explore and learn more about transformers by implementing it from scratch in pytorch.

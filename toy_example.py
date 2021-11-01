@@ -6,6 +6,7 @@ if __name__ == '__main__':
     # device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
     device = 'cpu'
 
+    # Task: Reverse the order of the input
     # SOS = 1, EOS = 2, PAD = 0
     X = torch.tensor([
         [1, 3, 5, 4, 6, 2, 0, 0],
@@ -14,7 +15,7 @@ if __name__ == '__main__':
     y = torch.tensor([
         [1, 6, 4, 5, 3, 2, 0, 0],
         [1, 8, 9, 7, 6, 3, 4, 2]
-    ]).to(device)  # Task: Reverse the order of the input
+    ]).to(device)
 
     pad_idx = 0
     src_vocab_size = 10
